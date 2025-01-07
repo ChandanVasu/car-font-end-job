@@ -1,6 +1,13 @@
-import React from 'react';
-import { Image } from '@nextui-org/react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
+import React from "react";
+import { Image } from "@nextui-org/react";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -9,9 +16,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-10">
           {/* Company Info */}
           <div className="flex flex-col items-center md:items-start w-full md:w-1/3 ">
-            <Image src="/logo.svg" alt="CarX Logo" width={120} height={40} />
+            <Image src="/logo.jpg" alt="CarX Logo" width={120} height={40} />
             <p className="mt-4 text-center md:text-left text-gray-700">
-              Unlock unbeatable offers on the newest models and take the wheel of your dream car today.
+              Unlock unbeatable offers on the newest models and take the wheel
+              of your dream car today.
             </p>
             <div className="flex justify-center md:justify-start gap-4 mt-4">
               <div className="bg-[#1877F2] p-2 rounded-full">
@@ -29,11 +37,21 @@ const Footer = () => {
           {/* Navigation Links */}
           <div className="w-full md:w-1/3 flex flex-col md:flex-row justify-around">
             <div className="flex flex-col gap-4 text-center md:text-left">
-              <h3 className="font-bold text-lg text-gray-900 mb-0">Quick Links</h3>
-              <a href="#" className="hover:text-gray-500">Home</a>
-              <a href="#" className="hover:text-gray-500">About Us</a>
-              <a href="#" className="hover:text-gray-500">Services</a>
-              <a href="#" className="hover:text-gray-500">Contact</a>
+              <h3 className="font-bold text-lg text-gray-900 mb-0">
+                Quick Links
+              </h3>
+              <a href="#" className="hover:text-gray-500">
+                Home
+              </a>
+              <a href="#" className="hover:text-gray-500">
+                About Us
+              </a>
+              <a href="#" className="hover:text-gray-500">
+                Services
+              </a>
+              <a href="#" className="hover:text-gray-500">
+                Contact
+              </a>
             </div>
           </div>
 
@@ -41,10 +59,11 @@ const Footer = () => {
           <div className="w-full md:w-1/3 text-center md:text-left">
             <h3 className="font-bold text-lg text-gray-900 mb-4">Contact Us</h3>
             <p className="flex items-center justify-center md:justify-start text-gray-700 mb-2">
-              <FaMapMarkerAlt className="mr-2" /> 123 Dream Car Avenue, CA 98765
+              <FaMapMarkerAlt className="mr-2" /> 2025 SW College Rd, Ocala, FL
+              34471, United States
             </p>
             <p className="flex items-center justify-center md:justify-start text-gray-700 mb-2">
-              <FaEnvelope className="mr-2" /> info@carx.com
+              <FaEnvelope className="mr-2" /> enquiry@jenkins-mobility.com
             </p>
             <p className="flex items-center justify-center md:justify-start text-gray-700 mb-2">
               <FaPhoneAlt className="mr-2" /> (123) 456-7890
@@ -52,7 +71,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-center md:text-left text-sm text-gray-600 mt-8">
-          © 2024 CarX. All rights reserved.
+          © 2025 Jenkins-mobility. All rights reserved.
         </p>
       </div>
     </footer>

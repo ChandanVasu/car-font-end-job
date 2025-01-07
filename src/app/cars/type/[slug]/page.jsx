@@ -11,9 +11,9 @@ export async function generateMetadata({ params }) {
       description: `Discover the best ${params.slug} cars available this year. Get top deals, expert reviews, and detailed comparisons to find your perfect car.`,
       images: [
         {
-          url: '/logo.svg', 
-          alt: `Best ${params.slug} Cars`
-        }
+          url: "/logo.jpg",
+          alt: `Best ${params.slug} Cars`,
+        },
       ],
     },
   };
@@ -21,6 +21,8 @@ export async function generateMetadata({ params }) {
 
 export default function Page({ params }) {
   return (
-    <div className="mb-10"><TypePgae slug={params.slug} /></div>
+    <div className="mb-10">
+      <TypePgae slug={params.slug} />
+    </div>
   );
 }
