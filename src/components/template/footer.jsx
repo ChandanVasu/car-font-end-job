@@ -66,7 +66,7 @@ const Footer = () => {
               <FaEnvelope className="mr-2" /> enquiry@jenkins-mobility.com
             </p>
             <p className="flex items-center justify-center md:justify-start text-gray-700 mb-2">
-              <FaPhoneAlt className="mr-2" /> (123) 456-7890
+              <FaPhoneAlt className="mr-2" /> +1 (906) 319-8314
             </p>
           </div>
         </div>
